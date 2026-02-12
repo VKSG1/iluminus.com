@@ -1,0 +1,174 @@
+
+ILUMINUS - Soluciones Eléctricas Innovadoras
+📋 Descripción del Proyecto
+
+ILUMINUSes un sitio web profesional para una empresa de servicios eléctricos. 
+La plataforma ofrece una experiencia visual moderna y atractiva con un diseño responsivo que destaca los servicios de instalaciones eléctricas, proyectos personalizados y asesoría técnica.
+
+Características Principales
+•	🎨Diseño moderno y responsivo- Adaptable a todos los dispositivos
+•	⚡Video de fondo dinámico- Animación de rayo eléctrico en la página principal
+•	🔗Navegación intuitiva- Menú principal con acceso a todas las secciones
+•	📱Estructura multi-página- Páginas de Inicio, Servicios, Presupuesto y Contacto
+•	💼Secciones de contenido- Hero, Servicios, Testimonios y Footer
+•	🎯Optimizado para SEO- Metadatos y estructura semántica
+
+📁 Estructura del Proyecto
+iluminus/
+├── index.html                 # Página principal
+├── css/
+│   └── styles.css            # Estilos principales
+├── js/
+│   └── script.js             # Funcionalidades JavaScript
+├── views/
+│   ├── servicios.html        # Página de servicios
+│   ├── presupuesto.html      # Página de presupuesto
+│   └── contacto.html         # Página de contacto
+├── essets/
+│   ├── videos/
+│   │   └── rayo.mp4          # Video de fondo
+│   └── icons/
+│       ├── facebook.png      # Icono Facebook
+│       ├── twitter.png       # Icono Twitter
+│       └── instagram.png     # Icono Instagram
+└── README.md                 # Este archivo
+
+🚀 Instalación y Uso
+Requisitos Previos
+•	Navegador web moderno (Chrome, Firefox, Safari, Edge)
+•	Servidor web local (opcional, pero recomendado)
+•	Editor de código (VS Code, Sublime Text, etc.)
+
+Pasos de Instalación
+
+Opción 1: Ejecución Directa (Más Simple)
+1.	Descargar o clonar el proyectogit clone https://github.com/tu-usuario/iluminus.git
+cd iluminus
+
+2.	Abrir en el navegadorHaz doble clic enindex.htmlO arrastra el archivo a tu navegador
+Opción 2: Con Servidor Local (Recomendado)
+Usando Python 3:
+cd iluminus
+python -m http.server 8000
+
+Luego abrehttp://localhost:8000en tu navegador.
+Usando Node.js (http-server):
+npm install -g http-server
+cd iluminus
+http-server
+
+Usando PHP:
+cd iluminus
+php -S localhost:8000
+
+Descripción de Archivos
+
+Archivos HTML
+
+Archivo	Descripción
+index.html	Página principal con hero, servicios y testimonios
+views/servicios.html	Detalle completo de servicios ofrecidos
+views/presupuesto.html	Formulario para solicitar presupuesto
+views/contacto.html	Información de contacto y formulario
+
+Archivos CSS
+Archivo	Descripción
+css/styles.css	Estilos principales, responsive design y animaciones
+
+Archivos JavaScript
+Archivo	Descripción
+js/script.js	Funcionalidades interactivas y validaciones
+
+Recursos Multimedia
+
+Carpeta	Contenido
+essets/videos/	Videos de fondo (rayo.mp4)
+essets/icons/	Iconos de redes sociales
+
+Personalización
+Cambiar Colores y Estilos
+Editacss/styles.csspara modificar:
+•	Colores principales
+•	Tipografía
+•	Espaciado y márgenes
+•	Efectos y animaciones
+
+Actualizar Contenido
+3.	Nombre de la empresa: Busca "ILUMINUS" en los archivos HTML
+4.	Servicios: Modifica la sección de servicios enindex.html
+5.	Contacto: Actualiza dirección y redes sociales en el footer
+6.	Video de fondo: Reemplazaessets/videos/rayo.mp4con tu video
+
+Agregar Nuevas Páginas
+7.	Crea un nuevo archivo.htmlen la carpetaviews/
+8.	Copia la estructura deindex.html
+9.	Agrega el enlace en el menú de navegación
+
+Funcionalidades
+Características Implementadas
+•	 Navegación responsiva
+•	 Video de fondo autoplay
+•	 Secciones destacables (highlightable)
+•	 Grid de servicios
+•	 Testimonios de clientes
+•	 Footer con redes sociales
+•	 Líneas decorativas eléctricas
+
+Funcionalidades Sugeridas
+•	 Integración de formulario de contacto con backend
+•	 Búsqueda de servicios
+•	 Galería de proyectos realizados
+•	 Chat en vivo
+•	 Aplicación móvil
+
+Contacto e Información
+
+ILUMINUS - Soluciones Eléctricas
+•	 Dirección: Calle Libre, 33 - Barcelona
+•	 Redes Sociales: Facebook | Twitter | Instagram
+•	 Aviso Legal | Política de Privacidad
+Licencia
+© 2025 ILUMINUS. Todos los derechos reservados.
+
+Contribuciones
+
+Si deseas contribuir al proyecto:
+10.	Fork el repositorio
+11.	Crea una rama para tu feature (git checkout -b feature/AmazingFeature)
+12.	Commit tus cambios (git commit -m 'Add some AmazingFeature')
+13.	Push a la rama (git push origin feature/AmazingFeature)
+14.	Abre un Pull Request
+
+Notas Importantes
+
+•	Asegúrate de que todos los archivos multimedia estén en las rutas correctas
+•	Verifica que los enlaces internos sean relativos y correctos
+•	Prueba la responsividad en diferentes dispositivos
+•	Valida el HTML y CSS con herramientas online
+•	Considera agregar un certificado SSL si lo despliegas en producción
+
+Solución de Problemas
+
+El video de fondo no se reproduce
+•	Verifica queessets/videos/rayo.mp4existe en la ruta correcta
+•	Comprueba que el navegador soporta HTML5 video
+•	Intenta con un formato de video diferente (WebM, Ogg)
+
+Los estilos no se cargan
+•	Verifica la ruta en<link rel="stylesheet" href="css/styles.css">
+•	Asegúrate de quecss/styles.cssexiste
+•	Limpia la caché del navegador (Ctrl+Shift+Delete)
+
+Los iconos de redes sociales no aparecen
+•	Verifica que los archivos PNG existen enessets/icons/
+•	Comprueba las rutas relativas en el HTML
+•	Usa rutas absolutas si es necesario
+
+Recursos Útiles
+•	MDN Web Docs
+•	W3Schools HTML/CSS
+•	Can I Use - Compatibilidad de navegadores
+•	Google Fonts
+
+Última actualización:Febrero 2025
+¡Gracias por usar ILUMINUS! 
